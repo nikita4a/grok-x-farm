@@ -31,3 +31,5 @@ data/
 /panel_out.json
 /tweets*.json
 /smoke/
+ai_abuse_*.json
+ai_abuse_*.txt
