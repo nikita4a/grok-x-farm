@@ -32,4 +32,5 @@ data/
 /tweets*.json
 /smoke/
 ai_abuse_*.json
-ai_abuse_*.txt
+ai_abuse_*.txtautoreg/debug_last_response.txt
+*.log
