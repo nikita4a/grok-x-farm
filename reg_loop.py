@@ -26,8 +26,8 @@ from datetime import datetime
 HERE = os.path.dirname(os.path.abspath(__file__))
 STOP_FILE = os.path.join(HERE, "STOP_REGISTRATION")
 
-COUNT_PER_CYCLE = 5      # короткие циклы -> частая полная уборка
-THREADS = 2              # каждый поток = 1 видимый Chrome (headless невозможен)
+COUNT_PER_CYCLE = 3      # browser-light: 3 acc/cycle (user: no browser spam)
+THREADS = 1              # browser-light: ONE visible Chrome (no spam)
 DELAY_BETWEEN = 10       # сек между циклами
 # Команда регистрации (портабельно между grok-x-farm и grok-suite).
 # grok-x-farm:  farm.py reg --count N --threads T   (default)
